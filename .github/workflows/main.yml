@@ -26,4 +26,4 @@ jobs:
       env:
         API_URL: ${{ secrets.API_URL }}
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      run: python path/to/your/script.py
+      run: python main.py
